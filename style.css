@@ -140,7 +140,9 @@ h1,h2,h3,.display{
 }
 .nav.stuck{background:rgba(16,14,12,.94);backdrop-filter:blur(12px);border-bottom-color:var(--line-dark);}
 .nav-in{display:flex;align-items:center;justify-content:space-between;gap:16px;height:74px;}
-.brand{display:flex;flex-direction:column;text-decoration:none;color:var(--bone);line-height:1;}
+.brand{display:flex;align-items:center;gap:11px;text-decoration:none;color:var(--bone);line-height:1;}
+.brand-logo{width:40px;height:40px;border-radius:50%;flex:none;box-shadow:0 0 0 1.5px rgba(244,240,232,.18);}
+.brand-text{display:flex;flex-direction:column;line-height:1;}
 .brand b{font-family:var(--display);font-size:25px;letter-spacing:.03em;font-weight:400;}
 .brand b i{font-style:normal;color:var(--accent);}
 .brand small{font-size:9px;letter-spacing:.26em;text-transform:uppercase;color:var(--muted-dark);margin-top:4px;}
