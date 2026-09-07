@@ -259,7 +259,7 @@ h1,h2,h3,.display{
 .split{display:grid;gap:34px;grid-template-columns:1fr;align-items:center;}
 @media(min-width:900px){.split{grid-template-columns:1fr 1fr;gap:56px;}}
 .about-media{position:relative;}
-.about-media img{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;border-radius:var(--r);}
+.about-media img{width:100%;height:auto;border-radius:var(--r);}
 .corner-tag{
   position:absolute;left:0;top:0;background:var(--accent);color:#fff;
   font-family:var(--display);font-size:17px;letter-spacing:.09em;padding:9px 16px 7px;
